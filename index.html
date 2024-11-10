@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Watch & Company</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/menu.css">
+        <link rel="stylesheet" href="./css/cards.css">
+        <link rel="stylesheet" href="./css/form.css">
+        <link rel="stylesheet" href="./css/contact.css">
+        <link rel="stylesheet" href="./css/features.css">
+    </head>
+    <body>
+        <header>
+            <div class="fixed-bg">
+                <div class="caption">
+                    Soul-Mates might be difficult to find, but <u>Soul-Watches</u> ain't.
+                </div>
+            </div>
+            <nav class="menu" id="menu">
+                <a href="#" class="brand" onclick="menuClick(null, event)">
+                    <img src="./images/logo.webp" alt="Watch & Company Logo" class="logo">
+                </a>
+                <button class="collapsible-btn">☰</button>
+                <ul class="collapsible">
+                    <li><a href="#" onclick="menuClick(null, event)">Home</a></li>
+                    <li><a href="products" onclick="menuClick('products', event)">Products</a></li>
+                    <li><a href="contact-us" onclick="menuClick('contact-us', event)">Contact</a></li>
+                    <li><a href="explore" onclick="menuClick('explore', event)">About Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        
+        
+        <main class="container">
+            <section class="remaining">
+                <button type="button" class="button shiny" onclick="menuClick('explore', event)">
+                    Explore
+                </button>
+            </section>
+
+            <div id="explore">
+                <h1 class="heading"><span>Features</span></h1>
+                <p align="center">Explore the latest in style, innovation, and quality watches.</p>
+            <div class="features" id="features">
+                 <ul>
+                 <li><strong>Premium Quality:</strong> Finest materials and craftsmanship for unmatched durability.</li>
+                 <li><strong>Timeless Design:</strong> Perfect for every occasion, day or night.</li>
+                 <li><strong>Innovative Features:</strong> Water resistance, scratch-proof glass, and smart options for a modern touch.</li>
+                 <li><strong>Comfort & Fit:</strong> Lightweight and adjustable for all-day wear.</li>
+                 <li><strong>Sustainable Choices:</strong> Eco-friendly materials and packaging.</li>
+                 <li><strong>Affordable Luxury:</strong> Luxury quality at accessible prices.</li>
+                 </ul>
+            </div>
+
+            </div>
+
+            <div class="cards" id="products">
+                <div class="card" style="background-image: url(./images/cartier\ watch.jpg);">
+                    <div class="overlay">
+                        <h3>Cartier Watches</h3>
+                        <span class="price">$5500</span>
+                        <div><a class="more button shiny" href="#">More</a></div>
+                        <div class="product-actions"><button class="add-to-cart shiny">Add to Cart</button></div>
+                    </div>
+                </div>
+                <div class="card" style="background-image: url(./images/citizen.png);">
+                    <div class="overlay">
+                        <h3>Citizen Watches</h3>
+                        <span class="price">$1500</span> <!-- Price here -->
+                        <div><a class="more button shiny" href="#">More</a></div>
+                        <div class="product-actions">
+                            <button class="add-to-cart shiny">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="background-image: url(./images/fitron\ watch.jpg);">
+                    <div class="overlay">
+                        <h3>Fitron Watches</h3>
+                        <span class="price">$1200</span> <!-- Price here -->
+                        <div><a class="more button shiny" href="#">More</a></div>
+                        <div class="product-actions">
+                            <button class="add-to-cart shiny">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="background-image: url(./images/geneve\ watch.jpg);">
+                    <div class="overlay">
+                        <h3>Geneve Watches</h3>
+                        <span class="price">$4906</span>
+                        <div><a class="more button shiny" href="#">More</a></div>
+                        <div class="product-actions"><button class="add-to-cart shiny">Add to Cart</button></div>
+                    </div>
+                </div>
+                <div class="card" style="background-image: url(./images/Klassc.png);">
+                    <div class="overlay">
+                        <h3>Klassc Watch</h3>
+                        <span class="price">$4500</span>
+                        <div><a class="more button shiny" href="#">More</a></div>
+                        <div class="product-actions"><button class="add-to-cart shiny">Add to Cart</button></div> 
+                    </div>
+                </div>
+                <div class="card" style="background-image: url(./images/omega\ blue.png);">
+                    <div class="overlay">
+                        <h3>Watch</h3>
+                        <span class="price">$3500</span>
+                        <div><a class="more button shiny" href="#">More</a></div>
+                        <div class="product-actions"><button class="add-to-cart shiny">Add to Cart</button></div>
+                    </div>
+                </div>
+                <div class="card" style="background-image: url(./images/omega\ watch.jpg);">
+                    <div class="overlay">
+                        <h3>Omega Seamaster</h3>
+                        <span class="price">$4000</span>
+                        <div><a class="more button shiny" href="#">More</a></div>
+                        <div class="product-actions"><button class="add-to-cart shiny">Add to Cart</button></div>
+                    </div>
+                </div>
+                <div class="card" style="background-image: url(./images/rado\ watch.jpg);">
+                    <div class="overlay">
+                        <h3>Rado Watch</h3>
+                        <span class="price">$1044</span>
+                        <div><a class="more button shiny" href="#">More</a></div>
+                        <div class="product-actions"><button class="add-to-cart shiny">Add to Cart</button></div>
+                    </div>
+                </div>
+                <h1 class="heading"><span>Our Products</span></h1>
+            </div>
+        </main>
+
+        <footer id="contact-us" class="contact-us">
+            <div class="contact container">
+                <h1 class="heading"><span>Contact Us</span></h1>
+                <p class="desc">Get in touch with us for inquiries, feedback, or support – we’re here to help!</p>
+
+                <div class="contact-holder">
+                    <div class="contact-section">
+                        <div class="contact-item">
+                            <span><i class="marker"></i></span>
+                            <div>
+                                <label>Address</label>
+                                Noida,Delhi               
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span>☎</span>
+                            <div>
+                                <label>Phone</label>
+                                (+91) 9876543210
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span>✉</span>
+                            <div>
+                                <label>Email</label>
+                                smart@x.com
+                            </div>
+                        </div>
+                    </div>
+                    <form class="form">
+                        <h3 class="f-heading">Send Feedback:</h3>
+                        <div class="f-item">
+                            <label for="f-name">Name</label>
+                            <input id="f-name" type="text">
+                        </div>
+                        <div class="f-item">
+                            <label for="f-email">Email</label>
+                            <input id="f-email" type="email">
+                        </div>
+                        <div class="f-item">
+                            <label for="f-msg">Message</label>
+                            <textarea id="f-msg" rows="2"></textarea>
+                        </div>
+                        <div class="f-item">
+                            <button type="submit" class="button shiny">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
